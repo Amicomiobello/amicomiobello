@@ -183,11 +183,64 @@ opacity:1;
     line-height:1.7;
     color:#f0f0f0;
 }
+.navbar{
+position:sticky;
+top:0;
+z-index:1000;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:18px 30px;
+
+background:rgba(0,0,0,.92);
+
+backdrop-filter:blur(12px);
+
+border-bottom:1px solid rgba(212,175,55,.25);
+}
+
+.logo-nav{
+font-size:34px;
+font-weight:900;
+letter-spacing:4px;
+color:#d4af37;
+text-shadow:0 0 12px rgba(212,175,55,.5);
+}
+
+.menu{
+display:flex;
+gap:25px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+font-size:18px;
+transition:.3s;
+}
+
+.menu a:hover{
+color:#d4af37;
+text-shadow:0 0 12px gold;
+}
 </style>
 
 </head>
 
 <body>
+
+<nav class="navbar">
+    <div class="logo-nav">AMB</div>
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#collezioni">Collezioni</a>
+        <a href="#chi">Chi siamo</a>
+        <a href="#contatti">Contatti</a>
+    </div>
+</nav>
 
 <header>
 

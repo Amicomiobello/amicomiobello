@@ -267,6 +267,69 @@ text-shadow:0 0 12px gold;
     font-size:22px;
     line-height:1.8;
 }
+/* ===== CATALOGO ABITI ===== */
+
+#abiti{
+    padding:60px 20px;
+    text-align:center;
+    background:#111;
+}
+
+#abiti h2{
+    color:#d4af37;
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+#abiti p{
+    color:#ddd;
+    margin-bottom:40px;
+    font-size:18px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    max-width:1300px;
+    margin:auto;
+}
+
+.item{
+    background:#1b1b1b;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 20px rgba(212,175,55,.15);
+    transition:.3s;
+}
+
+.item:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 35px rgba(212,175,55,.45);
+}
+
+.item img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+    display:block;
+}
+
+.item .btn{
+    display:block;
+    margin:20px;
+    padding:15px;
+    border-radius:12px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.item .btn:hover{
+    background:#1ebe5d;
+}
 </style>
 
 </head>
@@ -324,7 +387,70 @@ Contattaci su WhatsApp
 </div>
 
 </div>
+<section id="abiti">
+    <h2>🤵 Abiti da Cerimonia</h2>
+    <p>Scegli il tuo stile e richiedi la spedizione direttamente su WhatsApp.</p>
 
+    <div class="gallery">
+
+        <div class="item">
+            <img src="Smoking-nero.jpg.JPG">
+            <a class="btn" href="https://wa.me/393755524688?text=Ciao,%20vorrei%20la%20spedizione%20dello%20Smoking%20Nero.">
+                Vuoi la spedizione di quest'abito?
+            </a>
+        </div>
+
+        <div class="item">
+            <img src="Smoking-blu-Avion.jpg.JPG">
+            <a class="btn" href="https://wa.me/393755524688?text=Ciao,%20vorrei%20la%20spedizione%20dello%20Smoking%20Blu%20Avion.">
+                Vuoi la spedizione di quest'abito?
+            </a>
+        </div>
+
+        <div class="item">
+            <img src="Doppio-petto-turchese.jpg.JPG">
+            <a class="btn" href="https://wa.me/393755524688?text=Ciao,%20vorrei%20la%20spedizione%20del%20Doppio%20Petto%20Turchese.">
+                Vuoi la spedizione di quest'abito?
+            </a>
+        </div>
+
+        <div class="item">
+            <img src="Doppio-petto-arancione.jpg.JPG">
+            <a class="btn" href="https://wa.me/393755524688?text=Ciao,%20vorrei%20la%20spedizione%20del%20Doppio%20Petto%20Arancione.">
+                Vuoi la spedizione di quest'abito?
+            </a>
+        </div>
+
+        <div class="item">
+            <img src="Monopetto-rosa.jpg.JPG">
+            <a class="btn" href="https://wa.me/393755524688?text=Ciao,%20vorrei%20la%20spedizione%20del%20Monopetto%20Rosa.">
+                Vuoi la spedizione di quest'abito?
+            </a>
+        </div>
+
+        <div class="item">
+            <img src="Doppio-petto-bordeaux.jpg.JPG">
+            <a class="btn" href="https://wa.me/393755524688?text=Ciao,%20vorrei%20la%20spedizione%20del%20Doppio%20Petto%20Bordeaux.">
+                Vuoi la spedizione di quest'abito?
+            </a>
+        </div>
+
+        <div class="item">
+            <img src="Doppio-petto-gessato-ottanio.jpg.JPG">
+            <a class="btn" href="https://wa.me/393755524688?text=Ciao,%20vorrei%20la%20spedizione%20del%20Doppio%20Petto%20Gessato%20Ottanio.">
+                Vuoi la spedizione di quest'abito?
+            </a>
+        </div>
+
+        <div class="item">
+            <img src="Monopetto-verde.jpg.JPG">
+            <a class="btn" href="https://wa.me/393755524688?text=Ciao,%20vorrei%20la%20spedizione%20del%20Monopetto%20Verde.">
+                Vuoi la spedizione di quest'abito?
+            </a>
+        </div>
+
+    </div>
+</section>
 <section id="chi" class="about">
 
 <h2>Chi siamo</h2>

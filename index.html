@@ -201,12 +201,15 @@ backdrop-filter:blur(12px);
 border-bottom:1px solid rgba(212,175,55,.25);
 }
 
-.logo-nav{
-font-size:34px;
-font-weight:900;
-letter-spacing:4px;
-color:#d4af37;
-text-shadow:0 0 12px rgba(212,175,55,.5);
+.logo-nav img{
+height:60px;
+display:block;
+transition:.4s;
+filter:drop-shadow(0 0 12px rgba(212,175,55,.45));
+}
+
+.logo-nav img:hover{
+transform:scale(1.08);
 }
 
 .menu{
@@ -235,7 +238,9 @@ text-shadow:0 0 12px gold;
 <body>
 
 <nav class="navbar">
-    <div class="logo-nav">AMB</div>
+    <div class="logo-nav">
+    <img src="0FABD15D-72E4-4ED8-8CBF-34B293-FEB72E.png" alt="AMB">
+</div>
 
     <div class="menu">
         <a href="#">Home</a>

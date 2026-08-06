@@ -107,10 +107,40 @@ margin-top:40px;
 }
 
 .card{
-background:#222;
-padding:25px;
-border-radius:15px;
-font-size:22px;
+display:flex;
+justify-content:center;
+align-items:center;
+
+min-height:120px;
+padding:30px;
+
+background:linear-gradient(145deg,#1a1a1a,#0e0e0e);
+border:1px solid rgba(212,175,55,.35);
+border-radius:22px;
+
+color:#fff;
+font-size:24px;
+font-weight:700;
+text-decoration:none;
+letter-spacing:1px;
+text-align:center;
+
+box-shadow:
+0 8px 30px rgba(0,0,0,.45),
+0 0 18px rgba(212,175,55,.15);
+
+transition:.35s;
+cursor:pointer;
+}
+
+.card:hover{
+transform:translateY(-8px) scale(1.03);
+border-color:#d4af37;
+color:#d4af37;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.6),
+0 0 30px rgba(212,175,55,.45);
 }
 
 footer{
@@ -390,18 +420,34 @@ Contattaci su WhatsApp
 <div class="cards">
 
 <a href="abiti-cerimoniali.html" class="card">
-    🤵 Abiti da Cerimonia
+    <h3>ABITI DA CERIMONIA</h3>
+    <p>Eleganza per ogni occasione</p>
 </a>
 
-<div class="card">🤵 Coordinati</div>
+<div class="card">
+    <h3>COORDINATI</h3>
+    <p>Look completi</p>
+</div>
 
-<div class="card">👔 Camicie</div>
+<div class="card">
+    <h3>CAMICIE</h3>
+    <p>Collezione Premium</p>
+</div>
 
-<div class="card">👖 Pantaloni</div>
+<div class="card">
+    <h3>PANTALONI</h3>
+    <p>Vestibilità perfetta</p>
+</div>
 
-<div class="card">👞 Scarpe</div>
+<div class="card">
+    <h3>SCARPE</h3>
+    <p>Eleganza ai piedi</p>
+</div>
 
-<div class="card">🎩 Accessori</div>
+<div class="card">
+    <h3>ACCESSORI</h3>
+    <p>I dettagli fanno la differenza</p>
+</div>
 
 </div>
 

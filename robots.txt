@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://amicomiobello.github.io/amicomiobello/sitemap.xml
